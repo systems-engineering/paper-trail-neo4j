@@ -13,3 +13,19 @@ So, on to how to use it.
 ```ruby
 gem 'paper-trail-neo4j
 ```
+
+## Local development
+
+Because we're interacting with a non-standard database, we have chosen to dockerize that dependency. To start the bundled Neo4j database locally, run:
+
+```bash
+docker-compose up --build
+```
+
+## Testing
+
+If you want to help out an important corner stone of new PRs is testing. To run the tests locally:
+
+```bash
+bundle exec rspec
+```
