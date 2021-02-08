@@ -1,0 +1,5 @@
+example_id                                           | status | run_time        |
+---------------------------------------------------- | ------ | --------------- |
+./spec/paper-trail-neo4j/version_number_spec.rb[1:1] | passed | 0.00153 seconds |
+./spec/paper-trail-neo4j/version_spec.rb[1:1]        | passed | 0.0022 seconds  |
+./spec/paper-trail-neo4j/version_spec.rb[1:2:1]      | failed | 0.00531 seconds |

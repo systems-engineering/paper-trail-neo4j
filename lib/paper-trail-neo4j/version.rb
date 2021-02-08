@@ -1,10 +1,11 @@
 # frozen_string_literal: true
 
-require 'neo4j'
+require "neo4j_ruby_driver"
+require "active_graph"
 
 module PaperTrailNeo4j
   class Version
-    include ::Neo4j::ActiveNode
+    include ::ActiveGraph::Node
 
     property :object_id,
              type: String
